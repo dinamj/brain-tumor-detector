@@ -18,18 +18,47 @@ The main purpose of this project is to design and implement a Convolutional Neur
 
 ## Installation
 
+**Requirements:**
+
+- Python (tested on Version [3.11.8](https://www.python.org/downloads/release/python-3118/))
+- An environment to run Jupyter Notebooks in, eg.: [Visual Studio Code](https://code.visualstudio.com/download)
+- (only tested on Windows)
+
+
+**Installation steps:**
+
+1. Clone this repository and open it in the environment of your choice.
+
+2. Open your terminal and navigate to the root of this project.
+
+3. Install the required libraries by running the following command in your terminal:
+```
+py -m pip install -r requirements.txt
+```
+
+4. Install the necessary pytorch versions (only tested on CUDA graphics processing units):
+```
+py -m pip install torch==2.2.1 torchvision==0.17.1 --index-url https://download.pytorch.org/whl/cu121
+```
+
+
 
 
 
 ## Usage
 
-After the successfull installation you can simply run all the cells in the `notebook.ipynb` file.
+After the successfully completing all steps in the `Installation`, you can simply run all the cells in the `notebook.ipynb` file.
 
-With the help of the bottom two cells you can have the finished model make a prediction for your own MRI brain scans. Please have a look at the accompaning instructions inside the notebook.
+With the help of the bottom two cells you can have the finished model make a prediction for your own MRI brain scan images. Please have a look at the accompaning instructions written above the last 2 cells inside the notebook.
+
+
 
 
 ## Contact
 
 LinkedIn: Dina Mahdi-Joest [https://www.linkedin.com/in/dina-mahdi-joest-340204220/](https://www.linkedin.com/in/dina-mahdi-joest-340204220/)
 
+GitHub: https://github.com/dinamj
+
 E-Mail: dinamahdijoest@gmail.com
+
