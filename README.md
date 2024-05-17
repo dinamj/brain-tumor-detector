@@ -1,6 +1,6 @@
 ## About The Project
 
-The main purpose of this project is to design and implement a Convolutional Neural Network (CNN) capable of accurately classifying MRI scan images to determine the presence or absence of a tumor. Through extensive training on a mixture of two separate datasets (over 800 images each, for both tumor and non-tumor classification) the resulting model achieves an accuracy rate of above 90% every time.
+The main purpose of this project is to design and implement a Convolutional Neural Network (CNN) capable of accurately classifying MRI scan images to determine the presence or absence of a brain tumor. Through extensive training on a mixture of two separate datasets (over 800 images each, for both tumor and non-tumor classification) the resulting model achieves an accuracy rate of above 90% every time.
 
 
 
